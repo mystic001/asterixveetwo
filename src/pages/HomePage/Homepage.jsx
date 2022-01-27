@@ -59,6 +59,7 @@ function Homepage() {
           {matches ? <> </> : <></>}
         </Toolbar>
       </AppBar>
+      <Copyright/>
       </ThemeProvider>
     )
 }
